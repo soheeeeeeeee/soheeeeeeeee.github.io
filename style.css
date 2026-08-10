@@ -107,8 +107,8 @@ a:hover {
 }
 
 .bio-column {
-  max-width: 650px;
   width: 100%;
+  max-width: 650px;
 }
 
 .bio-column h1,
@@ -122,8 +122,6 @@ a:hover {
 /* Home 본문 이름 가운데 정렬 */
 .bio-column h1 {
   width: 100%;
-  display: flex;
-  justify-content: center;
   text-align: center;
 }
 
@@ -256,7 +254,7 @@ footer {
   }
 
   .bio-column h1 {
-    text-align: center !important;
+    text-align: center;
   }
 
   footer {
