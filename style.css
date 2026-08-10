@@ -111,18 +111,22 @@ a:hover {
   max-width: 650px;
 }
 
-.bio-column h1,
+/* HOME 본문 이름 */
+.bio-column h1 {
+  font-size: 34px;
+  font-weight: 500;
+  line-height: 1.2;
+  margin: -8px 0 22px 0;
+  width: 100%;
+  text-align: center;
+}
+
+/* Research 페이지 제목 */
 .content-page h1 {
   font-size: 34px;
   font-weight: 500;
-  margin: -8px 0 22px;
   line-height: 1.2;
-}
-
-/* Home 본문 이름 가운데 정렬 */
-.bio-column h1 {
-  width: 100%;
-  text-align: center;
+  margin: -8px 0 22px 0;
 }
 
 .welcome {
