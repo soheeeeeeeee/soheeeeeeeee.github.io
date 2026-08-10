@@ -197,6 +197,43 @@ footer {
     font-size: 30px;
   }
 
+  /* Research page spacing */
+
+.content-page {
+  max-width: 900px;
+}
+
+.content-page > h1 {
+  margin-bottom: 50px;
+}
+
+.research-item {
+  margin-bottom: 65px;
+}
+
+.research-item h2 {
+  margin-top: 0;
+  margin-bottom: 18px;
+  line-height: 1.5;
+}
+
+.research-item .paper-note {
+  margin-top: -8px;
+  margin-bottom: 22px;
+}
+
+.research-item .abstract-label {
+  margin-top: 22px;
+  margin-bottom: 12px;
+  font-weight: 600;
+}
+
+.research-item p {
+  line-height: 1.7;
+  margin-top: 0;
+  margin-bottom: 16px;
+}
+
   footer {
     padding-left: 22px;
     padding-right: 22px;
