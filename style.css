@@ -272,3 +272,8 @@ footer {
     padding-right: 22px;
   }
 }
+
+.coauthor-note {
+  font-style: italic;
+  font-weight: 400;
+}
