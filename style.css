@@ -33,7 +33,7 @@ a:hover {
 }
 
 .header-inner {
-  max-width: 1040px;
+  max-width: 1180px;
   margin: 0 auto;
   padding: 27px 32px 23px;
   display: flex;
@@ -85,7 +85,7 @@ a:hover {
 /* Main page */
 
 .page {
-  max-width: 1040px;
+  max-width: 1180px;
   margin: 0 auto;
   padding: 70px 32px 45px;
 }
@@ -237,7 +237,7 @@ a:hover {
 /* Footer */
 
 footer {
-  max-width: 1040px;
+  max-width: 1180px;
   margin: 0 auto;
   padding: 10px 32px 35px;
   color: #999;
