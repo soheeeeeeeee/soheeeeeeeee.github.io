@@ -119,9 +119,11 @@ a:hover {
   line-height: 1.2;
 }
 
+/* Home 본문 이름 가운데 정렬 */
 .bio-column h1 {
-  text-align: center;
+  display: block;
   width: 100%;
+  text-align: center !important;
 }
 
 .welcome {
@@ -252,9 +254,12 @@ footer {
     font-size: 30px;
   }
 
+  .bio-column h1 {
+    text-align: center !important;
+  }
+
   footer {
     padding-left: 22px;
     padding-right: 22px;
   }
-
 }
