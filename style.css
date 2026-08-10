@@ -266,3 +266,8 @@ footer {
     padding-right: 22px;
   }
 }
+
+
+.bio-column {
+  font-family: Arial, Helvetica, sans-serif !important;
+}
