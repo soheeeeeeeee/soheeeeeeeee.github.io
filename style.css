@@ -121,9 +121,10 @@ a:hover {
 
 /* Home 본문 이름 가운데 정렬 */
 .bio-column h1 {
-  display: block;
   width: 100%;
-  text-align: center !important;
+  display: flex;
+  justify-content: center;
+  text-align: center;
 }
 
 .welcome {
