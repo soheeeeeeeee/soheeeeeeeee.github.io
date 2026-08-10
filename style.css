@@ -24,6 +24,9 @@ a:hover {
   text-decoration: underline;
 }
 
+
+/* Header */
+
 .site-header {
   border-bottom: 1px solid #ececec;
   background: #fff;
@@ -69,11 +72,17 @@ a:hover {
   text-decoration: none;
 }
 
+
+/* Main page */
+
 .page {
   max-width: 1040px;
   margin: 0 auto;
   padding: 70px 32px 45px;
 }
+
+
+/* Home page */
 
 .profile-layout {
   display: grid;
@@ -99,6 +108,7 @@ a:hover {
 
 .bio-column {
   max-width: 650px;
+  width: 100%;
 }
 
 .bio-column h1,
@@ -111,7 +121,9 @@ a:hover {
 
 .bio-column h1 {
   text-align: center;
+  width: 100%;
 }
+
 .welcome {
   font-size: 19px;
   margin-bottom: 17px;
@@ -134,16 +146,59 @@ a:hover {
   margin-top: 24px !important;
 }
 
+
+/* Research page */
+
 .content-page {
   max-width: 900px;
 }
 
-.research-item,
+.content-page > h1 {
+  margin-bottom: 50px;
+}
+
+.research-item {
+  margin: 0 0 65px;
+}
+
+.research-item h2 {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 1.5;
+  margin-top: 0;
+  margin-bottom: 18px;
+}
+
+.research-item .paper-note {
+  font-style: italic;
+  color: #555;
+  margin-top: -8px;
+  margin-bottom: 22px;
+}
+
+.research-item .abstract-label {
+  margin-top: 22px;
+  margin-bottom: 12px;
+  font-weight: 600;
+}
+
+.research-item p {
+  line-height: 1.7;
+  margin-top: 0;
+  margin-bottom: 16px;
+}
+
+.paper-links {
+  margin-top: 8px;
+}
+
+
+/* Teaching page */
+
 .teaching-item {
   margin: 0 0 46px;
 }
 
-.research-item h2,
 .teaching-item h2 {
   font-size: 21px;
   font-weight: 600;
@@ -151,15 +206,8 @@ a:hover {
   margin: 0 0 8px;
 }
 
-.paper-note {
-  font-style: italic;
-  color: #555;
-  margin: 0 0 10px;
-}
 
-.paper-links {
-  margin-top: 8px;
-}
+/* Footer */
 
 footer {
   max-width: 1040px;
@@ -170,7 +218,11 @@ footer {
   font-size: 12px;
 }
 
+
+/* Mobile */
+
 @media (max-width: 760px) {
+
   .header-inner {
     align-items: flex-start;
     flex-direction: column;
@@ -200,47 +252,9 @@ footer {
     font-size: 30px;
   }
 
-  /* Research page spacing */
-
-.content-page {
-  max-width: 900px;
-}
-
-.content-page > h1 {
-  margin-bottom: 50px;
-}
-
-.research-item {
-  margin-bottom: 65px;
-}
-
-.research-item h2 {
-  font-size: 16px;
-  font-weight: 600;
-  line-height: 1.5;
-  margin-top: 0;
-  margin-bottom: 18px;
-}
-
-.research-item .paper-note {
-  margin-top: -8px;
-  margin-bottom: 22px;
-}
-
-.research-item .abstract-label {
-  margin-top: 22px;
-  margin-bottom: 12px;
-  font-weight: 600;
-}
-
-.research-item p {
-  line-height: 1.7;
-  margin-top: 0;
-  margin-bottom: 16px;
-}
-
   footer {
     padding-left: 22px;
     padding-right: 22px;
   }
+
 }
