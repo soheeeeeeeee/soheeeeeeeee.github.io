@@ -8,7 +8,7 @@ html {
 
 body {
   margin: 0;
-   font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
+  font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
   color: #222;
   background: #fff;
   line-height: 1.65;
@@ -47,7 +47,7 @@ a:hover {
   font-size: 20px;
   font-weight: 600;
   letter-spacing: 0.1px;
-   font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
+  font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
 }
 
 .site-name:hover {
@@ -62,7 +62,7 @@ a:hover {
 
 .nav a {
   color: #555;
-   font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
+  font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
   font-size: 14px;
   letter-spacing: 0.2px;
 }
@@ -99,6 +99,7 @@ a:hover {
   background: #f1f1f1;
   overflow: hidden;
 }
+
 .photo-frame img {
   width: 100%;
   height: 100%;
@@ -109,11 +110,11 @@ a:hover {
 .bio-column {
   width: 100%;
   max-width: 650px;
-   font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
+  font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
 }
 
 .bio-column h1 {
-   font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
+  font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
   font-size: 34px;
   font-weight: 500;
   line-height: 1.2;
@@ -123,7 +124,7 @@ a:hover {
 }
 
 .bio-column p {
-   font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
+  font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
   margin: 0 0 18px;
 }
 
@@ -150,11 +151,11 @@ a:hover {
 
 .content-page {
   max-width: 900px;
-   font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
+  font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
 }
 
 .content-page h1 {
-   font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
+  font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
   font-size: 34px;
   font-weight: 500;
   line-height: 1.2;
@@ -163,11 +164,11 @@ a:hover {
 
 .research-item {
   margin: 0 0 65px;
-   font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
+  font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
 }
 
 .research-item h2 {
-   font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
+  font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
   font-size: 16px;
   font-weight: 600;
   line-height: 1.5;
@@ -175,7 +176,7 @@ a:hover {
 }
 
 .research-item .paper-note {
-   font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
+  font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
   font-style: italic;
   color: #555;
   margin-top: -8px;
@@ -183,14 +184,14 @@ a:hover {
 }
 
 .research-item .abstract-label {
-   font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
+  font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
   margin-top: 22px;
   margin-bottom: 12px;
   font-weight: 600;
 }
 
 .research-item p {
-   font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
+  font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
   line-height: 1.7;
   margin-top: 0;
   margin-bottom: 16px;
@@ -205,11 +206,11 @@ a:hover {
 
 .teaching-item {
   margin: 0 0 46px;
-   font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
+  font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
 }
 
 .teaching-item h2 {
-   font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
+  font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
   font-size: 21px;
   font-weight: 600;
   line-height: 1.4;
@@ -224,7 +225,7 @@ footer {
   margin: 0 auto;
   padding: 10px 32px 35px;
   color: #999;
-   font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
+  font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
   font-size: 12px;
 }
 
