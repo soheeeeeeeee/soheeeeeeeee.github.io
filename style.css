@@ -8,7 +8,7 @@ html {
 
 body {
   margin: 0;
-   font-family: Arial, Helvetica, sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
   color: #222;
   background: #fff;
   line-height: 1.65;
@@ -47,6 +47,7 @@ a:hover {
   font-size: 25px;
   font-weight: 600;
   letter-spacing: 0.1px;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .site-name:hover {
@@ -109,33 +110,27 @@ a:hover {
 .bio-column {
   width: 100%;
   max-width: 650px;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
-/* HOME 본문 이름 */
 .bio-column h1 {
+  font-family: Arial, Helvetica, sans-serif;
   font-size: 34px;
   font-weight: 500;
   line-height: 1.2;
-  margin: -8px 0 22px 0;
+  margin: -8px 0 22px;
   width: 100%;
   text-align: center;
 }
 
-/* Research 페이지 제목 */
-.content-page h1 {
-  font-size: 34px;
-  font-weight: 500;
-  line-height: 1.2;
-  margin: -8px 0 22px 0;
+.bio-column p {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0 0 18px;
 }
 
 .welcome {
   font-size: 19px;
   margin-bottom: 17px;
-}
-
-.bio-column p {
-  margin: 0 0 18px;
 }
 
 .links {
@@ -156,25 +151,32 @@ a:hover {
 
 .content-page {
   max-width: 900px;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
-.content-page > h1 {
-  margin-bottom: 50px;
+.content-page h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 34px;
+  font-weight: 500;
+  line-height: 1.2;
+  margin: -8px 0 50px;
 }
 
 .research-item {
   margin: 0 0 65px;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .research-item h2 {
+  font-family: Arial, Helvetica, sans-serif;
   font-size: 16px;
   font-weight: 600;
   line-height: 1.5;
-  margin-top: 0;
-  margin-bottom: 18px;
+  margin: 0 0 18px;
 }
 
 .research-item .paper-note {
+  font-family: Arial, Helvetica, sans-serif;
   font-style: italic;
   color: #555;
   margin-top: -8px;
@@ -182,12 +184,14 @@ a:hover {
 }
 
 .research-item .abstract-label {
+  font-family: Arial, Helvetica, sans-serif;
   margin-top: 22px;
   margin-bottom: 12px;
   font-weight: 600;
 }
 
 .research-item p {
+  font-family: Arial, Helvetica, sans-serif;
   line-height: 1.7;
   margin-top: 0;
   margin-bottom: 16px;
@@ -202,9 +206,11 @@ a:hover {
 
 .teaching-item {
   margin: 0 0 46px;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .teaching-item h2 {
+  font-family: Arial, Helvetica, sans-serif;
   font-size: 21px;
   font-weight: 600;
   line-height: 1.4;
@@ -265,9 +271,4 @@ footer {
     padding-left: 22px;
     padding-right: 22px;
   }
-}
-
-
-.bio-column {
-  font-family: Arial, Helvetica, sans-serif !important;
 }
