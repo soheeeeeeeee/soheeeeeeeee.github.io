@@ -54,6 +54,9 @@ a:hover {
   text-decoration: none;
 }
 
+
+/* Navigation */
+
 .nav {
   display: flex;
   gap: 28px;
@@ -64,12 +67,17 @@ a:hover {
   color: #555;
   font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
   font-size: 14px;
+  font-weight: 600;
   letter-spacing: 0.2px;
 }
 
-.nav a.active,
+.nav a.active {
+  color: #0B4DA2;
+  font-weight: 700;
+}
+
 .nav a:hover {
-  color: #111;
+  color: #0B4DA2;
   text-decoration: none;
 }
 
@@ -201,6 +209,11 @@ a:hover {
   margin-top: 8px;
 }
 
+.coauthor-note {
+  font-style: italic;
+  font-weight: 400;
+}
+
 
 /* Teaching page */
 
@@ -271,9 +284,4 @@ footer {
     padding-left: 22px;
     padding-right: 22px;
   }
-}
-
-.coauthor-note {
-  font-style: italic;
-  font-weight: 400;
 }
